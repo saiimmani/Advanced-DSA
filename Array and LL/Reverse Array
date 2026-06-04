@@ -1,0 +1,12 @@
+int left = 0;
+int right = arr.length - 1;
+
+while(left < right)
+{ // Swapping
+    int temp = arr[left];    // it stores left value in temp
+    arr[left] = arr[right]; // it store is right value in left
+    arr[right] = temp;  // it stores left in right 
+
+    left++;
+    right--;
+}
